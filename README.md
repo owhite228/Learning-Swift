@@ -18,7 +18,7 @@ In Swift, you cannot change a variable to a constant or vice versa.</br>
 ### Naming variables in Swift
 Swift variables/constants can be named anything you like, as long as they don't start with a number or symbol (with the exception of underscores), and don't contain any spaces or mathematical/comparison operators. There are also a few Swift naming conventions, such as using camelCase and recommending that variables not be abbreviated.</br>
 
-Swift is s/d typed and s/w typed
+Swift is statically-typed and strongly-typed language - all information about a variable must be present at compile time. </br>
 
 ### Multiple data types in Swift
 In general, Swift does not like combining multiple data types. </br>
