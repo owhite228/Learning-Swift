@@ -25,8 +25,6 @@ In Swift, any ifs following the first one are written as 'else if' </b>
 Else can have a condition, but it doesn't need to </b>
 Ifs and else ifs must have a condition </b>
 
-In swift, dangling elses are blatantly ignored.
-
 ~~~
 {
   if x == 0 {
@@ -39,6 +37,9 @@ In swift, dangling elses are blatantly ignored.
       print("x is a positive number")
   }
 }
+~~~
+Additionaly, Swift blatantly ignores all dangling elses.
+This code, with a variable x and y containing any values beside 1 and 2 respectively, will print nothing.
 ~~~
 {
   if x == 1 {
