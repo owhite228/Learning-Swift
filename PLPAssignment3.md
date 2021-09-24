@@ -25,9 +25,6 @@ In Swift, any ifs following the first one are written as 'else if' </b>
 Else can have a condition, but it doesn't need to </b>
 Ifs and else ifs must have a condition </b>
 
-~~~
-{
-
 In swift, dangling elses are blatantly ignored.
 
 ~~~
@@ -68,7 +65,7 @@ Here's how Swift handles short circuit logic:
 ~~~
 *also, lowercase true and false are the only boolean operators in swift*</b>
 
-Switches can be made in Swift, buy instantiating a switch with the chosen variable, then making cases. </b>
+Switches can be made in Swift, by instantiating a switch with the chosen variable, then making cases. </b>
 Always end with a "default" case, otherwise it will error</b>
 Here's an example:
 ~~~
